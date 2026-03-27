@@ -1,6 +1,6 @@
 package com.attendance.model;
 
-public abstract class Person {
+public abstract class Person implements java.io.Serializable {
     private String id;
     private String name;
 

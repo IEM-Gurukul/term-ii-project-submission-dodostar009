@@ -1,6 +1,6 @@
 package com.attendance.model;
 
-public class Subject {
+public class Subject implements java.io.Serializable {
     private String code;
     private String name;
     private int totalClasses;

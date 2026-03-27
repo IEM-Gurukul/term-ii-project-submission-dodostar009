@@ -2,7 +2,7 @@ package com.attendance.model;
 
 import java.time.LocalDate;
 
-public class AttendanceRecord {
+public class AttendanceRecord implements java.io.Serializable {
     private String studentId;
     private String subjectCode;
     private LocalDate date;

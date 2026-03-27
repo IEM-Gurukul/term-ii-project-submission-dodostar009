@@ -1,6 +1,6 @@
 package com.attendance.model;
 
-public class Student extends Person {
+public class Student extends Person implements java.io.Serializable {
     private String rollNumber;
     private String department;
 
