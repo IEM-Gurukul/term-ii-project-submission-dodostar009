@@ -1,43 +1,29 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/pG3gvzt-)
-# PCCCS495 – Term II Project
+# Student Attendance Management System
 
-## Project Title
-
----
-
-## Problem Statement (max 150 words)
-
----
+## Problem Statement
+A Java-based desktop application to manage student attendance efficiently. Teachers can add students, mark attendance subject-wise, and generate attendance reports. The system alerts when attendance drops below 75%.
 
 ## Target User
-
----
+Teachers and administrators at educational institutions.
 
 ## Core Features
-
-- 
-- 
-- 
-
----
+- Add and manage students
+- Mark attendance per subject
+- Generate reports by student or subject
+- Automatic alert when attendance falls below 75%
+- Data persistence using file serialization
 
 ## OOP Concepts Used
-
-- Abstraction:
-- Inheritance:
-- Polymorphism:
-- Exception Handling:
-- Collections / Threads:
-
----
-
-## Proposed Architecture Description
-
----
+- Abstraction: Abstract class Person defines common structure
+- Inheritance: Student and Teacher extend Person
+- Polymorphism: getInfo() overridden in each subclass
+- Encapsulation: All fields private with getters/setters
+- Observer Pattern: AlertObserver notifies on low attendance
+- Strategy Pattern: Switchable report generation strategies
+- Exception Handling: Custom exceptions for all error cases
+- File Handling: Serialization-based data persistence
 
 ## How to Run
-
----
-
-## Git Discipline Notes
-Minimum 10 meaningful commits required.
+1. Open project in IntelliJ IDEA
+2. Mark src as Sources Root
+3. Run MainFrame.java
